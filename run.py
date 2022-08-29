@@ -12,8 +12,13 @@ def main():
     height = 120
     fps = 20
 
+    # Some interesting targets
+    mandelbrot_antennas = (-0.1638, 1.0353)
+    seahorse_valley = (-0.746, -0.1)
+    elephant_valley = (0.2855, 0.012)
+
     # Animation parameters
-    target = (-0.2, 1.0)
+    target = mandelbrot_antennas
     steps = 30
 
     def easing(begin, end, length):
