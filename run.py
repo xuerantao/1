@@ -18,7 +18,7 @@ def main():
     elephant_valley = (0.2855, 0.012)
 
     # Animation parameters
-    target = mandelbrot_antennas
+    target = seahorseValley
     steps = 30
 
     def easing(begin, end, length):
